@@ -847,6 +847,17 @@
 		</pluginManagement>
 
 		<plugins>
+            <plugin>
+            <groupId>org.ekstazi</groupId>
+            <artifactId>ekstazi-maven-plugin</artifactId>
+            <version>5.0.1</version>
+            <executions>
+                <execution>
+                    <id>ekstazi</id>
+                    <goals> <goal>select</goal> </goals>
+                </execution>
+            </executions>
+        </plugin>
 			<plugin>
 				<artifactId>maven-source-plugin</artifactId>
 				<executions>
